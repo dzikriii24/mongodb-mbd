@@ -1,7 +1,7 @@
 // Insert document customers
 db.customers.insertOne({
     _id: "customer01",
-    name: "Khalid bin Walid"
+    name: "Dzikri Rabbani"
 });
 
 // Insert document products
@@ -15,6 +15,11 @@ db.products.insertMany([
         _id: 2,
         name: "Mie Sedap",
         price: new NumberLong(2000)
+    },
+     {
+        _id: 3,
+        name: "kratom",
+        price: new NumberLong(4000)
     }
 ]);
 
